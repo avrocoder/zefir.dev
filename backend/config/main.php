@@ -34,5 +34,10 @@ return [
             'showScriptName' => false
         ],          
     ],
+    'modules' => [
+        'category' => [
+            'class' => 'app\modules\category',
+        ],
+    ],
     'params' => $params,
 ];
